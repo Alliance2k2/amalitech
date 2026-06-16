@@ -11,6 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "presentation"
 PDF_PATH = OUT_DIR / "last_mile_logistics_auditor_presentation.pdf"
 
+AUTHOR_NAME = "Irigenera Alliance"
+STUDENT_AFFILIATION = "AIMS Rwanda"
+PROGRAM_CONTEXT = "AmaliTech Rwanda Exam Task"
+
 SLIDE_SIZE = landscape((13.333 * inch, 7.5 * inch))
 W, H = SLIDE_SIZE
 
@@ -44,7 +48,7 @@ def draw_bg(c, title, subtitle="", page=1):
         c.drawString(0.75 * inch, H - 1.42 * inch, subtitle)
     c.setFillColor(MUTED)
     c.setFont("Helvetica", 8)
-    c.drawRightString(W - 0.75 * inch, 0.58 * inch, f"Veridi Logistics Audit | {page}")
+    c.drawRightString(W - 0.75 * inch, 0.58 * inch, f"{AUTHOR_NAME} | {PROGRAM_CONTEXT} | {page}")
 
 
 def textbox(c, x, y, width, lines, size=12, color=NAVY, leading=16, bullet=False):
@@ -108,6 +112,12 @@ def title_slide(c):
     c.setFillColor(colors.HexColor("#cbd5e1"))
     c.drawString(0.86 * inch, 4.12 * inch, "Delivery promise accuracy and customer sentiment audit")
     c.setFillColor(colors.white)
+    c.setFont("Helvetica-Bold", 17)
+    c.drawString(0.86 * inch, 3.64 * inch, AUTHOR_NAME)
+    c.setFillColor(colors.HexColor("#cbd5e1"))
+    c.setFont("Helvetica", 12)
+    c.drawString(0.86 * inch, 3.34 * inch, f"{STUDENT_AFFILIATION} | {PROGRAM_CONTEXT}")
+    c.setFillColor(colors.white)
     kpi(c, 0.86 * inch, 2.35 * inch, 2.4 * inch, 1.0 * inch, "Delivered Orders", "96,476", "analysis base", colors.white)
     kpi(c, 3.48 * inch, 2.35 * inch, 2.4 * inch, 1.0 * inch, "Late Rate", "8.1%", "late or super late", colors.white)
     kpi(c, 6.1 * inch, 2.35 * inch, 2.4 * inch, 1.0 * inch, "Worst State", "AL", "23.9% late", colors.white)
@@ -119,6 +129,9 @@ def title_slide(c):
 def build_pdf():
     OUT_DIR.mkdir(exist_ok=True)
     c = canvas.Canvas(str(PDF_PATH), pagesize=SLIDE_SIZE)
+    c.setTitle("Last Mile Logistics Auditor")
+    c.setAuthor(f"{AUTHOR_NAME} | {STUDENT_AFFILIATION}")
+    c.setSubject(PROGRAM_CONTEXT)
 
     title_slide(c)
     c.showPage()

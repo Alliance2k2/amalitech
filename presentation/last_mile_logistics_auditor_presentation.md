@@ -1,12 +1,16 @@
 ---
 title: "Last Mile Logistics Auditor"
 subtitle: "Delivery promise accuracy and customer sentiment audit"
-author: "Veridi Logistics Audit"
+author: "Irigenera Alliance | AIMS Rwanda | AmaliTech Rwanda Exam Task"
 ---
 
 # Last Mile Logistics Auditor
 
 Delivery promise accuracy and customer sentiment audit for Veridi Logistics.
+
+Prepared by **Irigenera Alliance**  
+Student at **AIMS Rwanda**  
+Exam task for **AmaliTech Rwanda**
 
 Dataset: Olist Brazilian E-Commerce Dataset.
 
