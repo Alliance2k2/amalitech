@@ -1,0 +1,12 @@
+archive/
+data/
+olist_*.csv
+product_category_name_translation.csv
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+README(1).md
+Screenshot from *.png
+# notebook_exports/ intentionally committed for exam submission
