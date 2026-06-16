@@ -13,7 +13,6 @@ Out of 96,476 delivered orders, **8.1% were late or super late**, confirming a m
 - **Link to Dashboard:** <https://amalitech-pzzepkval4rfh3phyyf2jh.streamlit.app/>
 - **Link to Presentation PDF:** <https://github.com/Alliance2k2/amalitech/blob/main/presentation/last_mile_logistics_auditor_presentation.pdf>
 - **Link to Presentation PPTX:** <https://github.com/Alliance2k2/amalitech/blob/main/presentation/last_mile_logistics_auditor_presentation.pptx>
-- **Optional Video Walkthrough:** _Add your YouTube or Loom link here._
 
 ## C. Technical Explanation
 
@@ -97,13 +96,13 @@ Before submission, test the GitHub repository, dashboard link, and presentation 
 
 ## Pre-Submission Checklist
 
-- [ ] GitHub repository is public and opens in Incognito Mode.
-- [ ] `.ipynb` notebook is uploaded.
-- [ ] HTML notebook export is uploaded.
-- [ ] Raw CSV dataset files are not committed.
-- [ ] Code uses relative paths only.
-- [ ] Dashboard link is public.
-- [ ] Presentation link is public.
-- [ ] README contains final executive summary and technical explanation.
-- [ ] User Stories 1-4 are complete.
-- [ ] Candidate's Choice analysis is complete and explained.
+- [x] GitHub repository is public and opens in Incognito Mode.
+- [x] `.ipynb` notebook is uploaded.
+- [x] HTML notebook export is uploaded.
+- [x] Raw CSV dataset files are not committed.
+- [x] Code uses relative paths only.
+- [x] Dashboard link is public.
+- [x] Presentation link is public.
+- [x] README contains final executive summary and technical explanation.
+- [x] User Stories 1-4 are complete.
+- [x] Candidate's Choice analysis is complete and explained.
