@@ -62,9 +62,7 @@ I added product-category delivery risk analysis using translated English categor
 - `outputs/*.png`: static chart exports from the notebook.
 - `presentation/last_mile_logistics_auditor_presentation.pdf`: final designed presentation deck.
 - `presentation/last_mile_logistics_auditor_presentation.pptx`: editable slide deck.
-- `presentation_outline.md`: suggested slide structure for the insight presentation.
 - `requirements.txt`: Python dependencies.
-- `STREAMLIT_DASHBOARD_ENGINEERING_DOCUMENTATION.md`: dashboard deployment and design notes.
 
 ## How to Run
 

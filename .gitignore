@@ -9,4 +9,9 @@ __pycache__/
 .venv/
 README(1).md
 Screenshot from *.png
+IMPLEMENTATION_DOCUMENTATION.md
+STREAMLIT_DASHBOARD_ENGINEERING_DOCUMENTATION.md
+presentation_outline.md
+presentation/*.md
+scripts/
 # notebook_exports/ intentionally committed for exam submission
