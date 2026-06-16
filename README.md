@@ -8,7 +8,8 @@ Out of 96,476 delivered orders, **8.1% were late or super late**, confirming a m
 
 ## B. Project Links
 
-- **Link to Notebook:** _Add your public GitHub or Colab notebook link here._
+- **Link to Notebook:** <https://github.com/Alliance2k2/amalitech/blob/main/last_mile_logistics_audit.ipynb>
+- **Notebook HTML Export:** <https://github.com/Alliance2k2/amalitech/blob/main/notebook_exports/last_mile_logistics_audit.html>
 - **Link to Dashboard:** _Add your Streamlit Cloud public URL here._
 - **Link to Presentation:** _Add your public slide deck or PDF link here._
 - **Optional Video Walkthrough:** _Add your YouTube or Loom link here._
