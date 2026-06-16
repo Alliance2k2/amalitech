@@ -10,8 +10,9 @@ Out of 96,476 delivered orders, **8.1% were late or super late**, confirming a m
 
 - **Link to Notebook:** <https://github.com/Alliance2k2/amalitech/blob/main/last_mile_logistics_audit.ipynb>
 - **Notebook HTML Export:** <https://github.com/Alliance2k2/amalitech/blob/main/notebook_exports/last_mile_logistics_audit.html>
-- **Link to Dashboard:** _Add your Streamlit Cloud public URL here._
-- **Link to Presentation:** _Add your public slide deck or PDF link here._
+- **Link to Dashboard:** <https://amalitech-pzzepkval4rfh3phyyf2jh.streamlit.app/>
+- **Link to Presentation PDF:** <https://github.com/Alliance2k2/amalitech/blob/main/presentation/last_mile_logistics_auditor_presentation.pdf>
+- **Link to Presentation PPTX:** <https://github.com/Alliance2k2/amalitech/blob/main/presentation/last_mile_logistics_auditor_presentation.pptx>
 - **Optional Video Walkthrough:** _Add your YouTube or Loom link here._
 
 ## C. Technical Explanation
@@ -60,6 +61,8 @@ I added product-category delivery risk analysis using translated English categor
 - `app.py`: Streamlit dashboard application.
 - `outputs/*.csv`: dashboard-ready summary tables.
 - `outputs/*.png`: static chart exports from the notebook.
+- `presentation/last_mile_logistics_auditor_presentation.pdf`: final designed presentation deck.
+- `presentation/last_mile_logistics_auditor_presentation.pptx`: editable slide deck.
 - `presentation_outline.md`: suggested slide structure for the insight presentation.
 - `requirements.txt`: Python dependencies.
 - `STREAMLIT_DASHBOARD_ENGINEERING_DOCUMENTATION.md`: dashboard deployment and design notes.
