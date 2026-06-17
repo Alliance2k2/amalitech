@@ -12,7 +12,6 @@ Out of 96,476 delivered orders, **8.1% were late or super late**, confirming a m
 - **Notebook HTML Export:** <https://github.com/Alliance2k2/amalitech/blob/main/notebook_exports/last_mile_logistics_audit.html>
 - **Link to Dashboard:** <https://amalitech-pzzepkval4rfh3phyyf2jh.streamlit.app/>
 - **Link to Presentation PDF:** <https://github.com/Alliance2k2/amalitech/blob/main/presentation/last_mile_logistics_auditor_presentation.pdf>
-- **Link to Presentation PPTX:** <https://github.com/Alliance2k2/amalitech/blob/main/presentation/last_mile_logistics_auditor_presentation.pptx>
 
 ## C. Technical Explanation
 
